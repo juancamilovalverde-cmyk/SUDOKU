@@ -10,7 +10,7 @@
 
 <BorderPane xmlns="http://javafx.com/javafx/21"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.sudoku.sudokucodex.controller.GameController"
+            fx:controller="com.sudoku.sudoku.controller.GameController"
             styleClass="root-pane">
     <top>
         <VBox spacing="8" alignment="CENTER" BorderPane.alignment="CENTER">

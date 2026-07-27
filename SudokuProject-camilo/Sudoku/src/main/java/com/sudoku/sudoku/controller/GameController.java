@@ -1,4 +1,4 @@
-package com.sudoku.sudokucodex.controller;
+package com.sudoku.sudoku.controller;
 
 import com.sudoku.sudokucodex.model.CellPosition;
 import com.sudoku.sudokucodex.model.SudokuBoard;

@@ -1,4 +1,4 @@
-package com.sudoku.sudokucodex;
+package com.sudoku.sudoku;
 
 import javafx.application.Application;
 

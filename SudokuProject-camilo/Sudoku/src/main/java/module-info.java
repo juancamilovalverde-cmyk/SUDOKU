@@ -1,12 +1,10 @@
-module com.sudoku.sudokucodex {
+module com.sudoku.sudoku {
     requires javafx.controls;
     requires javafx.fxml;
 
+    opens com.sudoku.sudoku to javafx.fxml;
+    opens com.sudoku.sudoku.controller to javafx.fxml;
 
-    opens com.sudoku.sudokucodex to javafx.fxml;
-    opens com.sudoku.sudokucodex.controller to javafx.fxml;
-
-    exports com.sudoku.sudokucodex;
-    exports com.sudoku.sudokucodex.controller;
-    exports com.sudoku.sudokucodex.model;
+    exports com.sudoku.sudoku;
+    exports com.sudoku.sudoku.controller;
 }
