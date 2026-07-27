@@ -1,0 +1,16 @@
+/**
+ * PROYECTO: Sudoku
+ *
+ * Versión de Java utilizada:
+ * JDK 25.0.3 LTS (Eclipse Adoptium Temurin)
+ *
+ * Maven:
+ * Apache Maven 3.9.11
+ *
+ * Compatibilidad del proyecto:
+ * Compilación configurada para Java 17
+ * (source = 17, target = 17).
+ *
+ * Ejecución realizada con:
+ * Java 25.0.3 LTS.
+ */
