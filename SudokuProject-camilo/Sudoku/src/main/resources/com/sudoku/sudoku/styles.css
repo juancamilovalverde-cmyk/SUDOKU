@@ -1,0 +1,83 @@
+.root-pane {
+    -fx-background-color: #f6f7fb;
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.title-label {
+    -fx-font-size: 34px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1f2937;
+}
+
+.subtitle-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #5b6472;
+}
+
+.sudoku-cell {
+    -fx-pref-width: 72px;
+    -fx-pref-height: 72px;
+    -fx-alignment: center;
+    -fx-font-size: 24px;
+    -fx-font-weight: 600;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #242936;
+    -fx-border-width: 1px;
+    -fx-text-fill: #1f2937;
+}
+
+.sudoku-cell:focused {
+    -fx-background-color: #e8f2ff;
+}
+
+.fixed-cell {
+    -fx-background-color: #dfe5ee;
+    -fx-text-fill: #111827;
+}
+
+.editable-cell {
+    -fx-background-color: #ffffff;
+}
+
+.hint-cell {
+    -fx-background-color: #fff1b8;
+    -fx-text-fill: #705800;
+}
+
+.error-cell {
+    -fx-background-color: #ffe1e1;
+    -fx-border-color: #d72638;
+}
+
+.primary-button,
+.secondary-button {
+    -fx-min-width: 126px;
+    -fx-min-height: 38px;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.primary-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: #ffffff;
+}
+
+.secondary-button {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #a8b1c1;
+    -fx-text-fill: #253044;
+}
+
+.counter-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #354052;
+}
+
+.message-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #4b5563;
+}

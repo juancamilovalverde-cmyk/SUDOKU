@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.sudoku.sudokucodex.controller.GameController"
+            styleClass="root-pane">
+    <top>
+        <VBox spacing="8" alignment="CENTER" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets top="22" right="20" bottom="12" left="20"/>
+            </padding>
+            <Label text="Sudoku 6x6" styleClass="title-label"/>
+            <Label text="Completa filas, columnas y bloques 2x3 con numeros del 1 al 6."
+                   styleClass="subtitle-label"/>
+        </VBox>
+    </top>
+
+    <center>
+        <GridPane fx:id="boardGrid"
+                  alignment="CENTER"
+                  hgap="0"
+                  vgap="0"
+                  BorderPane.alignment="CENTER"/>
+    </center>
+
+    <bottom>
+        <VBox spacing="14" alignment="CENTER" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets top="12" right="20" bottom="24" left="20"/>
+            </padding>
+            <HBox spacing="12" alignment="CENTER">
+                <Button text="Nuevo juego" onAction="#startNewGame" styleClass="primary-button"/>
+                <Button text="Ayuda" onAction="#requestHint" styleClass="secondary-button"/>
+                <Button text="Limpiar" onAction="#clearEditableCells" styleClass="secondary-button"/>
+            </HBox>
+            <HBox spacing="18" alignment="CENTER">
+                <Label fx:id="hintCounterLabel" text="Ayudas usadas: 0" styleClass="counter-label"/>
+                <Label fx:id="messageLabel" text="" styleClass="message-label"/>
+            </HBox>
+        </VBox>
+    </bottom>
+</BorderPane>
